@@ -11,7 +11,7 @@ client.on("message", (message) => {
       .setThumbnail(message.author.displayAvatarURL)
       .addField('Message:', message.content)
       .setFooter('DM Bot Messages | DM Logs')
-      client.channels.find('id','404968772969955329').send(yumz) // channel id
+      client.channels.find('id','749188813288374272').send(yumz) // channel id
     }       
   }
 });
